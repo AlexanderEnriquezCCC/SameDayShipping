@@ -1211,7 +1211,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 490f0c54f608b5a419fb8da6baf0e315, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameScene: MainGame
+  gameScene: PickupThrowTest
 --- !u!1 &436090783
 GameObject:
   m_ObjectHideFlags: 0
