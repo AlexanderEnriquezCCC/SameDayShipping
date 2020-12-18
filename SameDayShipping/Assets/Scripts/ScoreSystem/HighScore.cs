@@ -11,11 +11,11 @@ public class HighScore : MonoBehaviour
     {
         highScore.text = PlayerPrefs.GetInt("HighScore", 0).ToString();
     }
-    public void Score()
-    {
-        int number = Random.Range(1, 7);
-        score.text = number.ToString();
 
+ 
+    public void WritesScore()
+    {
+        int number = GameScore.Score;
 
         if (number > PlayerPrefs.GetInt("HighScore", 0))
         {

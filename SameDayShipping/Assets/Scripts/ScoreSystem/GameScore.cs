@@ -8,9 +8,10 @@ using UnityEngine.UI;
 
 public class GameScore : MonoBehaviour
 {
-    public static int Score = 0;
+    public static int Score;
    void OnGUI()
     {
-        GUI.Box(new Rect(100, 100, 100, 100), Score.ToString());
+        GUI.Box(new Rect(120, 80, 80, 120), Score.ToString());
+
     }
 }
