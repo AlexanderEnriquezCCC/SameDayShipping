@@ -20,7 +20,6 @@ public class RandomizePackage : MonoBehaviour
     void PackagesLeftRange()
     {
         PackagesLeft = UnityEngine.Random.Range(1,4);
-        Console.WriteLine(PackagesLeft + " packages left");
     }
 
     void GivePlayerNewPackage()
